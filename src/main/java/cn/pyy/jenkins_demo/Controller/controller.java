@@ -13,6 +13,6 @@ public class controller {
 
     @RequestMapping("hello")
     public Object getAll(){
-        return applyCostService.getAll();
+        return "哈哈哈，牛逼牛逼！"+applyCostService.getAll();
     }
 }
